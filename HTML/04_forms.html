@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+</head>
+<body>
+  <h1>Login Form</h1>
+  <form action="">
+    <label for="username" placeholder="Enter your username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password" placeholder="Enter your password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <textarea name="comments" id="comments"></textarea><br><br>
+
+    <label for="remember">Remember me:</label>
+    <input type="checkbox" id="remember" name="remember">
+    <input type="checkbox" id="remember" name="remember"><br><br>
+
+     <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male" >Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+     <label for="country">Country:</label>  
+    <select name="country" id="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="australia">Australia</option>
+    </select><br><br>
+
+
+    <input type="submit" value="Login">
+  </form>
+</body>
+</html>
