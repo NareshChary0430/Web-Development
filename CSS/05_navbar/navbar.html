@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+
+  <style>
+    body{
+      font-family:  Arial, Helvetica, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    .nav-container {
+      margin-bottom: 40px;
+    }
+    h2{
+      margin-bottom: 10px;
+    }
+    .nav1{
+      border: 1px solid red;
+      background-color: #f8f9fa;
+    }
+    .nav1 ul{
+      list-style-type:none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      margin: 0;
+
+    }
+    .nav1 ul li a{
+      text-decoration: none;
+      background-color: tomato;
+      color:#1a1a1a;
+    }
+    .nav1 .login-btn{
+      background-color: tomato;
+      color:#1a1a1a;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 20%;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-container">
+    <h2>Variation 1: Horizontal with underline effect</h2>
+    <nav class="nav1">
+      <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><button class="login-btn">Login</button></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="nav-container">
+    <h2>Variation 2: Horizontal with background color change on hover</h2>
+    <nav class="nav2">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><button class="login-btn">Login</button></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="nav-container">
+    <h2>Variation 3: Vertical sidebar</h2>
+    <nav class="nav3">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><button class="login-btn">Login</button></li>
+      </ul>
+    </nav>
+  </div>
+
+
+</body>
+</html>
